@@ -26,6 +26,18 @@ When should this pattern be used?
       assignment.
 
 
+Factory method:
+
+- Provides a way to delegate the instantiation to child classes.
+
+
+When should this pattern be used?
+    - When using generic class processing but the required subclass is
+      dynamically decided at run time.
+
+    - in basic terms: when the client doesnt know what sub-class it might need.
+
+
 
 Structural
 

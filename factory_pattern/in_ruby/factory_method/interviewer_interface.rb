@@ -1,6 +1,5 @@
 #module emulates an interface class
-
-module Interviewer
+module Interviewer 
   #raise error if not implemented.
   def ask_questions
     raise "Not implemented"

@@ -1,0 +1,36 @@
+Design patterns
+________________
+
+What are design patterns?
+    - Solutions / guidelines to recurring problems
+    - A description or template for how to solve a problem.
+
+
+Types of design patterns (Based on the Gang of Four book)
+
+Creational
+___________
+
+What do creational design patterns do?
+    - They are focused towards how to instantiate an object or group of related
+      objects.
+
+Simple factory pattern:
+
+How it works: 
+    - It simply generates an instance for the client without exposing any
+      instantiation logic.
+
+When should this pattern be used?
+    - When creating an object involves some logic as opposed to basic
+      assignment.
+
+
+
+Structural
+
+
+
+Behavioral
+
+

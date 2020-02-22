@@ -51,6 +51,28 @@ When should this pattern be used?
     - When there are interrelated dependencies with not-so-simple creation
       logic involved.
 
+
+
+Builder:
+
+How it works:
+    - It allows different flavors of objects to be created while avoiding
+      constructor pollution.
+    
+    - Useful when theres several types of an object being created
+
+    - also useful for when the creation of an ojbect involves a lot of steps.
+
+
+When should this pattern be used?
+    - when several flavors of an object are being created and to avoid
+      constructor pollution
+
+    - unlike the factory pattern, where the creation is a single step process,
+        the builder pattern is used for a multi-step creation process.
+
+
+
 Structural
 
 

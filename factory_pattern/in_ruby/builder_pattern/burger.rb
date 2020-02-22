@@ -18,7 +18,7 @@ class Burger
 end
 
 
-burger = (BurgerBuilder.new(14))
+burger = (BurgerBuilder.new(3))
                     .add_lettuce
                     .add_tomato
                     .add_bacon

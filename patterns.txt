@@ -28,7 +28,8 @@ When should this pattern be used?
 
 Factory method:
 
-- Provides a way to delegate the instantiation to child classes.
+How it works:
+    - It provides a way to delegate the instantiation logic to child classes.
 
 
 When should this pattern be used?

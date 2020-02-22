@@ -33,7 +33,7 @@ president = President.get_instance
 
 doppleganger = president
 
-puts doppleganger == president #returns true since only one object of this class is created.
+puts doppleganger.equal?(president) #returns true since only one object of this class is created.
 
 president2 = President.new #Raises error since there can only be one of this object.
 

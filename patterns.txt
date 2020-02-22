@@ -40,6 +40,17 @@ When should this pattern be used?
 
 
 
+Abstract factory:
+    
+How it works:
+    - Its a factory of factories.
+    - It groups the individual but related/dependant factories togethor without
+      specifying their conrcete classes.
+
+When should this pattern be used?
+    - When there are interrelated dependencies with not-so-simple creation
+      logic involved.
+
 Structural
 
 

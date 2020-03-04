@@ -6,11 +6,9 @@ module AdapterFor
     attr_accessor :dog
 
     protected 
-   
     @dog
 
     public
-    
     def initialize(dog)
       @dog = dog
     end

@@ -8,4 +8,4 @@
 - Now lets say we want to extend the game to add wild dogs to the list of items a hunter can hunt
 - Currently the hunter can only interact with objects implementing the Lion interface
 - An adapter would have to be created so the hunter can interact with wild dogs as he would with lions.
-- The code in this repository does just that
+- The code in this directory does just that

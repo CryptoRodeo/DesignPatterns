@@ -1,21 +1,21 @@
-Design patterns
+# Design patterns
 ________________
 
-What are design patterns?
+## What are design patterns?
     - Solutions / guidelines to recurring problems
     - A description or template for how to solve a problem.
 
 
-Types of design patterns (Based on the Gang of Four book)
+## Types of design patterns (Based on the Gang of Four book)
 
-Creational
+### Creational
 ___________
 
 What do creational design patterns do?
     - They are focused towards how to instantiate an object or group of related
       objects.
 
-Simple factory pattern:
+#### Simple factory pattern:
 
 How it works: 
     - It simply generates an instance for the client without exposing any
@@ -26,7 +26,7 @@ When should this pattern be used?
       assignment.
 
 
-Factory method:
+#### Factory method:
 
 How it works:
     - It provides a way to delegate the instantiation logic to child classes.
@@ -40,7 +40,7 @@ When should this pattern be used?
 
 
 
-Abstract factory:
+#### Abstract factory:
     
 How it works:
     - Its a factory of factories.
@@ -53,7 +53,7 @@ When should this pattern be used?
 
 
 
-Builder:
+#### Builder:
 
 How it works:
     - It allows different flavors of objects to be created while avoiding
@@ -72,7 +72,7 @@ When should this pattern be used?
         the builder pattern is used for a multi-step creation process.
 
 
-Prototype:
+#### Prototype:
 
 How it works:
     - create an object by cloning an existing object    
@@ -84,7 +84,7 @@ When should this pattern be used?
 
 
 
-Singleton:
+#### Singleton:
 
 How it works:
     - It ensures that only one object of a particular class is ever created.
@@ -103,20 +103,20 @@ When should it be used?
 
 
 
-Structural
+### Structural
 ___________
 
-Adapter: 
+#### Adapter: 
 - Lets you wrap an incompatible object in an adapter, making it compatible with other objects.
 
-Bridge:
+#### Bridge:
 - Implementation details are pushed from a heirarchy to another object with a seperate hierarchy.
 
-Composite:
+#### Composite:
 - describes that a group of objects are to be treated in the same manner as a single instance of an object:
   -TL;DR:  allows individual objects to be treated in a uniform manner.
 
 
-Behavioral
+### Behavioral
 
 

@@ -104,7 +104,13 @@ When should it be used?
 
 
 Structural
+___________
 
+Adapter: 
+- Lets you wrap an incompatible object in an adapter, making it compatible with other objects.
+
+Bridge:
+- Implementation details are pushed from a heirarchy to another object with a seperate hierarchy.
 
 
 Behavioral

@@ -113,11 +113,14 @@ ___________
 - Implementation details are pushed from a heirarchy to another object with a seperate hierarchy.
 
 #### Composite:
-- describes that a group of objects are to be treated in the same manner as a single instance of an object:
+- Describes that a group of objects are to be treated in the same manner as a single instance of an object:
   -TL;DR:  allows individual objects to be treated in a uniform manner.
 
   #### Decorator:
   - Dynamically changes the behavior of an object at run time by wrapping it in a decorator class object.
+
+  #### Facade:
+  - Provides a simple interface to a complex subsystem.
 
 
 ### Behavioral
